@@ -19,12 +19,12 @@ public class Main {
     public static void main(String[] args) {
         String document = "1234-ABC-5678-cde-9q8w";
 
-        WorkingWithString.getBlockOfNumbers(document);
-        WorkingWithString.getLetterReplacement(document);
-        WorkingWithString.getLettersInLowerCase(document);
-        WorkingWithString.getLettersInUpperCase(document);
-        WorkingWithString.getLetterSequence(document);
-        WorkingWithString.getStartDigitSequence(document);
-        WorkingWithString.getEndsDigitSequence(document);
+        StringInformator.getBlockOfNumbers(document);
+        StringInformator.getLetterReplacement(document);
+        StringInformator.getLettersInLowerCase(document);
+        StringInformator.getLettersInUpperCase(document);
+        StringInformator.getLetterSequence(document);
+        StringInformator.getStartDigitSequence(document);
+        StringInformator.getEndsDigitSequence(document);
     }
 }
